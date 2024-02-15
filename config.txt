@@ -1,0 +1,6 @@
+webex_bot_token=not_used_but_dont_delete
+webex_room_id=not_used_but_dont_delete
+ctr_client_id=client-xxxx
+ctr_client_password=xxxx
+host=https://private.intel.eu.amp.cisco.com
+host_for_token=https://visibility.eu.amp.cisco.com
