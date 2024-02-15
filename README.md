@@ -40,13 +40,14 @@ Edit the **config.txt** file and set the correct values to the **ctr_client_id**
 Assign correct values to the **host** and **host_for_token** variables.
 
 host=https://private.intel.eu.amp.cisco.com  ( https://private.intel.amp.cisco.com , https://private.intel.apjc.amp.cisco.com )
+
 host_for_token=https://visibility.eu.amp.cisco.com  ( https://visibility.amp.cisco.com , https://visibility.apjc.amp.cisco.com )
 
 We dont need the **webex_bot_token** and **webex_room_id** but dont delete these variable from the file.
 
 Then edit the **1-monitor_files_into_monitored_directory.py** script and Set the **src_path** variable to indicate the root path of the directory tree you want to monitor. You must enter the full path of the directory ( ex : C:/Users/patrick/Documents/Office_Documents )
 
-By default the application will monitor every files contained into the monitored directory tree. But you filter some file types like office documents and event a specific file to monitor. Modify the **file_types** for this ( file_types=['*.*'] or ['*.txt','*.jpg','*.docx'] )
+By default the application will monitor every files contained into the monitored directory tree. But you filter some file types like office documents and event a specific file to monitor. Modify the **file_types** for this.
 
 You are ready to go
 
@@ -68,6 +69,6 @@ The application is very light in terms of CPU consumption, which make it an appl
 
 Here is very quickly instruction for converting the python script into an exe.
 
-IN CONSTRUCTION
+UNDER CONSTRUCTION
 
 
